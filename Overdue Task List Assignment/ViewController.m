@@ -54,7 +54,7 @@
     
     cell.textLabel.text = task.title;
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd"];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm"];
     NSString *stringFromDate = [formatter stringFromDate:task.date];
     cell.detailTextLabel.text = stringFromDate;
     cell.detailTextLabel.textColor = [UIColor blueColor];
