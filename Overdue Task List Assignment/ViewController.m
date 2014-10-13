@@ -57,6 +57,7 @@
     [formatter setDateFormat:@"yyyy-MM-dd"];
     NSString *stringFromDate = [formatter stringFromDate:task.date];
     cell.detailTextLabel.text = stringFromDate;
+    cell.detailTextLabel.textColor = [UIColor blueColor];
     
     if (task.completion) {
         cell.backgroundColor = [UIColor greenColor];

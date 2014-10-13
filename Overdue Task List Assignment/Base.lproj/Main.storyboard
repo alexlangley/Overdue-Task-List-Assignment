@@ -142,7 +142,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Task name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kXg-Lz-YkL">
                                 <rect key="frame" x="16" y="72" width="288" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="5lh-eS-vi5">
@@ -153,7 +153,7 @@
                             </datePicker>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Task Description" translatesAutoresizingMaskIntoConstraints="NO" id="g2F-3R-HEc">
                                 <rect key="frame" x="16" y="118" width="288" height="143"/>
-                                <color key="backgroundColor" red="1" green="0.83048991780000003" blue="0.3730231463" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.78662123212004531" green="1" blue="0.82435272204108268" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -197,14 +197,14 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Task Details" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK1-I5-UYD">
                                 <rect key="frame" x="16" y="151" width="288" height="143"/>
-                                <color key="backgroundColor" red="1" green="0.83048991780000003" blue="0.3730231463" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" red="1" green="0.9291520318236095" blue="0.93709114580892083" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Task" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3h6-Wm-BWV">
                                 <rect key="frame" x="16" y="109" width="288" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
